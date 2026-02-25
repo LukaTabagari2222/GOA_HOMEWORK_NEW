@@ -29,14 +29,14 @@
 
 
 # N4
-# a=input("შეიყვანეთ პირველი რიცხვი")
-# b=input("შეიყვანეთ მეორე რიცხვი!")
+# a = input("შეიყვანეთ პირველი რიცხვი")
+# b = input("შეიყვანეთ მეორე რიცხვი!")
 
-# if len(a)==0 or len(b)==0 :
+# if len(a) == 0 or len(b) == 0 :
 #     print("გთხოვ შეიყვანოთ მნიშვნელობები!")
 # elif a == b:
-#     first=int(a)
-#     second=int(b)
+#     first = int(a)
+#     second = int(b)
 #     print("მიღებულა პასუხი")
 
 # else :
@@ -45,10 +45,10 @@
 
 # N5
 
-# firstNumber=input("შეიყვანეთ პირველი რიცხვი!")
-# seconndNumber=input("შეიყვანეთ მეორე რიცხვი!")
-# firstNumber=int(firstNumber)
-# seconndNumber=int(seconndNumber)
+# firstNumber = input("შეიყვანეთ პირველი რიცხვი!")
+# seconndNumber = input("შეიყვანეთ მეორე რიცხვი!")
+# firstNumber = int(firstNumber)
+# seconndNumber = int(seconndNumber)
 
 # if firstNumber > seconndNumber :
 #     print("პირველი რიცხვი მეტია მეორეზე!")
@@ -59,17 +59,17 @@
 #     print("დაფიქსირდა შეცდომა!")
 
 # N6
-# punCh_string=input("შეიყვანეთ პაროლი!")
-# neW_stirng=punCh_string.title()
+# punCh_string = input("შეიყვანეთ პაროლი!").strip()
+# neW_stirng = punCh_string.title()
 
-# if neW_stirng =="Python":
+# if neW_stirng == "Python":
 #     print("მიღებულია!")
 # else  :
 #     print("გთხოვთ ზუსტად შეიყვანოთ პაროლი!")
 
 
-# punCh_string=input("შეიყვანეთ პაროლი!").strip()
-# neW_stirng=list(punCh_string)
+# punCh_string = input("შეიყვანეთ პაროლი!").strip()
+# neW_stirng = list(punCh_string)
 
 # if neW_stirng[0] == "p":
 #     print("")
@@ -98,10 +98,11 @@
 
 # N8
 
-# pasworLd_inp=input("შეიყვანეთ პაროლი").strip()
+# pasworLd_inp = input("შეიყვანეთ პაროლი").strip()
 
-# if pasworLd_inp =="" :
+# if pasworLd_inp == "" :
 #     print("შეიყვანეთ პაროლიი!!!")
+
 # elif  pasworLd_inp.startswith("Python123") :
 #     print("მიღებულია!")
 
@@ -110,10 +111,13 @@
 
 
 # N9
-# comparIsOn_inp=input("შეიყვანეთ პირევლი რიცხი!")
-# comparIsOn_inpp=input("შეიყვანეთ მეორე რიცხი!")
-# comparIsOn_inp=int(comparIsOn_inp)
-# comparIsOn_inpp=int(comparIsOn_inpp)
+# comparIsOn_inp = input("შეიყვანეთ პირევლი რიცხი!").strip()
+
+# comparIsOn_inpp = input("შეიყვანეთ მეორე რიცხი!").strip()
+
+# comparIsOn_inp = int(comparIsOn_inp)
+
+# comparIsOn_inpp = int(comparIsOn_inpp)
 
 # if comparIsOn_inp > comparIsOn_inpp :
 #     print("პირველი რიცხვი მეტია მე 2 რიცხვზე")
@@ -181,7 +185,6 @@
 # symbols = input("შეიყვანეთ სიმბოლოები (/ * - +): ")
 
 
-
 # if number1 == "" or number2 == "" or number3 == "" or number4 == "":
 #     print("გთხოვთ შეიყვანოთ რიცხვები:")
 # else:
@@ -195,7 +198,7 @@
 #    print(number1 + number2 +number3 + number4)
 
 # elif symbols == "-":
-#      print(number1 - number2 - number3 - number4) 
+#      print(number1 - number2 - number3 - number4)
 
 # elif symbols == "*":
 #     print(number1 * number2 * number3 * number4)
@@ -249,17 +252,15 @@
 #             print("It'S St_Ri_NG")
 
 
-
 # N13
 
 # first_boy=input("შეიყვანეთ ტექსტი:")
 # second_Boy= input("შეკყვანეთ ტექსტი:")
 
-# if first_boy !=second_Boy:
+# if first_boy != second_Boy:
 #     print("მონცემები არ ემთხვევეა ერთმანეთს!")
 # else:
 #     print("იდენტურია")
-
 
 
 # N14
@@ -274,7 +275,6 @@
 #     print("მიღებულია")
 # else:
 #     print("მიუღებელია")
-
 
 
 # num1 = input("შეიყვანეთ რიცხვი 1: ").strip()
@@ -296,9 +296,6 @@
 #     print(f"რიცხვი {num3} არ ემთხვევა 50-ს")
 # else:
 #     print("!ყველა რიცხვი სწორია!")
-
-
-
 
 
 # სულ ჯამშ არის 15 დავალება რაც გავაკეთე
