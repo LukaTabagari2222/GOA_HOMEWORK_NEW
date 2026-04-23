@@ -1,0 +1,213 @@
+.sectionheder {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  align-items: center;
+  background-color: black;
+  animation-name: block;
+  animation-duration: 2s;
+  transition: 3s;
+  animation-iteration-count: infinite;
+}
+
+.ategsSpec{
+    font-size: 30px;
+    color: azure;
+    text-shadow: 3px 3px 2px red;
+    font-family: 'BPG DedaEna NonBlock';
+
+}
+@keyframes block {
+  10% {
+    background-color: aqua;
+    transition: 3s;
+  }
+  20% {
+    background-color: blue;
+  }
+}
+.navmensDiv {
+  width: 90%;
+  background-color: rgb(51, 51, 51);
+  margin: auto;
+  align-items: center;
+  padding: 25px;
+  border-radius: 20px;
+}
+.namenFirst {
+  display: flex;
+  justify-content: space-between;
+}
+#davit{
+    font-size:32px;
+    font-family: "BPG Nuskha Modern", sans-serif;
+
+}
+.firstUl {
+  display: flex;
+  gap: 10px;
+}
+.secondUl {
+  display: flex;
+  gap: 40px;
+}
+
+.ategsNavbar{
+font-family: "ALK Tall Nusxuri";
+  font-size: 25px;
+  color: red;
+  color: rgb(255, 255, 255);
+  text-shadow: red 2px 2px 2px;
+}
+.SHoozmainDIv {
+  width: 90%;
+  margin: auto;
+  background-color: aqua;
+}
+#img1 {
+  display: block;
+  width: 30%;
+  border-radius: 20px;
+}
+#img2 {
+  display: block;
+  width: 30%;
+  border-radius: 20px;
+}
+.firstimages {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#img3 {
+  display: block;
+  width: 30%;
+  border-radius: 20px;
+}
+#img4 {
+  display: flex;
+  width: 30%;
+  border-radius: 20px;
+  animation-name: img;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.secondimages {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  animation-name: wol;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition: 5s;
+}
+@keyframes wol {
+  10% {
+    background-color: blue;
+    box-shadow: 4px 11px 12px red;
+  }
+  20% {
+    background-color: rgb(164, 245, 15);
+    box-shadow: 4px 11px 12px rgb(7, 221, 71);
+  }
+  30% {
+    background-color: rgb(116, 0, 10);
+    box-shadow: 4px 11px 12px rgb(21, 255, 216);
+  }
+}
+.margerdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: solid 2px;
+  animation-name: wolf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition: 5s;
+}
+@keyframes wolf {
+  10% {
+    border-radius: 40%;
+    box-shadow: 2px 2px 10px red;
+    background-color: black;
+  }
+  20% {
+    border-radius: 20%;
+    box-shadow: 3px 12px 10px rgb(3, 245, 63);
+    background-color: rgb(228, 18, 18);
+  }
+  30% {
+    border-radius: 30%;
+    box-shadow: 2px 2px 10px rgb(10, 108, 235);
+    background-color: rgb(201, 5, 175);
+  }
+}
+
+.Proicesmarger {
+  width: 80%;
+  background-color: blueviolet;
+  margin: auto;
+}
+.boxdiv1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  justify-content: center;
+  width: 30%;
+  background-color: burlywood;
+  height: 50px;
+}
+#delete {
+  font-size: 17px;
+  text-decoration: line-through;
+}
+#newprice {
+  font-size: 20px;
+  color: rgb(114, 255, 32);
+}
+
+.footerdiv {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(77, 75, 75);
+  border-radius: 5px;
+}
+.aTegsfut {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+.afut {
+  display: inline;
+  font-size: 25px;
+  color: rgb(247, 247, 247);
+  text-shadow: 2px 2px 4px red;
+}
+.ategsSec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.foterdivmarger {
+  display: flex;
+  justify-content: space-around;
+}
+.furrer {
+  background-color: black;
+  padding: 70px;
+  animation-name: lk;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes lk {
+  10% {
+    background-color: bisque;
+    box-shadow: 5px 6px 10px rebeccapurple;
+  }
+  20% {
+    background-color: rgb(219, 241, 206);
+    box-shadow: 5px 6px 10px rgb(13, 218, 233);
+  }
+}

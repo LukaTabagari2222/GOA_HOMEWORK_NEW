@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'ALK Tall Nusxuri';
+    src: url('../fonts/alk-tall-nusxuri-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-tall-nusxuri-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-tall-nusxuri-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-tall-nusxuri-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-tall-nusxuri-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-tall-nusxuri-webfont.svg#alk_tall_nusxuriregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'BPG DedaEna NonBlock';
+    src: url('../fonts/bpg-dedaena-nonblock-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-dedaena-nonblock-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-dedaena-nonblock-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-dedaena-nonblock-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-dedaena-nonblock-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-dedaena-nonblock-webfont.svg#bpg_dedaena_nonblockregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'BPG Nuskha Modern';
+    src: url('../fonts/bpg-nuskha-modern-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nuskha-modern-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nuskha-modern-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nuskha-modern-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nuskha-modern-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nuskha-modern-webfont.svg#bpg_nuskha_modernregular') format('svg'); /* Legacy iOS */
+}

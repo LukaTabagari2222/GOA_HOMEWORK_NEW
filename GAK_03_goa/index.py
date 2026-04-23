@@ -299,3 +299,67 @@
 
 
 # სულ ჯამშ არის 15 დავალება რაც გავაკეთე
+
+
+
+# Goas_davalebebi
+# კომენტარები გამოიყენება კოდის გასათიშად ასევება რიამეს აღსაწერად
+
+# case-sensitive არის როდესაც პროგრამირების ენა რეაგირებს დიდ და პატარა ასოებზე ანუ ასნსხვავაბეს მათ:
+# ხოლოდ case-insensetive  არის როდეასც მნიშნვნელობა არ აქვს დიდი ასოა ტუ პატარა
+
+# snack_case არის დახრლი ხაზი რომელიც გამოიყენება პითონში რგორც ჯს შ არის ქემელ ქეისი ანუ ერთი დიდი ასო
+# 1 frisT_Case 
+# 2 Seonnd_case
+# 3 serd_case
+
+
+
+# Bug არის პროგრამაში არსებული შეცდომა ან ხარვეზი,
+#  რომელიც იწვევს პროგრამის არასწორ მუშაობას ან მოულოდნელ შედეგს.
+
+#  Debugging არის პროცესია, რომლის დროსაც ვპოულობთ,
+#  ვაანალიზებთ და ვასწორებთ პროგრამაში არსებულ შეცდომებს (bug-ებს).
+
+
+
+# 6) გამოასწორეთ შეცდომები შემდეგ კოდში:
+
+#  name = "Lika"
+#    print(name)
+
+#  number = "5" 
+#    text = " apples"
+#    result = number + text
+#    print(result)
+
+#     name = "liKa"
+#    name2 = name + "4"
+#     print(name2)
+
+#  first_user = "Lika"
+#    user = "Giorgi"
+#    print(first + user)
+
+
+#  first_name = "Data"
+#    last_name = "random"
+
+#  first_user = "Lika"
+#    user = "Giorgi"
+#    print(user, first_user)
+
+
+# lists = ["apple","banana","cheryy","ასდას"]
+
+# count_strike = 0
+# for x in lists:
+#     if len(x) <= 4:
+#         count_strike += 1  
+#         print("sworia")
+#         break
+
+# else:
+#     print("araswpria")
+
+
